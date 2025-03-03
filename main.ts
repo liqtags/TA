@@ -1,8 +1,81 @@
 /**
  * This is the entry point of the module
  */
-import { calculateRSI } from './ta/calculateRSI.ts';
+import {
+    calculateADX,
+    calculateAroon,
+    calculateBollingerBands,
+    calculateCCI,
+    calculateChoppinessIndex,
+    calculateCMF,
+    calculateEMA,
+    calculateFibonacciRetracements,
+    calculateLinearRegressionSlope,
+    calculatePivotPoints,
+    calculateRSI,
+    calculateSMA,
+    calculateStochastic,
+    isBearishEngulfing,
+    isBearishHarami,
+    isBullishEngulfing,
+    isBullishHarami,
+    isDoji,
+    isEveningStar,
+    isHammer,
+    isMorningStar,
+    isShootingStar,
+    isThreeBlackCrows,
+    isThreeWhiteSoldiers,
+    calculateATR,
+    calculateMACD,
+    calculateFibonacci,
+    calculateIchimoku,
+    calculateMFI, 
+    calculateSmoothedAverage, 
+    calculateStandardDeviation, 
+    calculateSupertrend, 
+    calculateVWAP, 
+    calculateWilliamsR
+  } from "./indicators.ts";
+
+import { getSignalsForCategory } from "./getSignalsForCategory.ts";
+import { generateSignals } from "./signals.ts";
 
 export {
-    calculateRSI
+    calculateADX,
+    calculateAroon,
+    calculateBollingerBands,
+    calculateCCI,
+    calculateChoppinessIndex,
+    calculateCMF,
+    calculateEMA,
+    calculateFibonacciRetracements,
+    calculateLinearRegressionSlope,
+    calculatePivotPoints,
+    calculateRSI,
+    calculateSMA,
+    calculateStochastic,
+    isBearishEngulfing,
+    isBearishHarami,
+    isBullishEngulfing,
+    isBullishHarami,
+    isDoji,
+    isEveningStar,
+    isHammer,
+    isMorningStar,
+    isShootingStar,
+    isThreeBlackCrows,
+    isThreeWhiteSoldiers,
+    calculateATR,
+    calculateMACD,
+    calculateFibonacci,
+    calculateIchimoku,
+    calculateMFI, 
+    calculateSmoothedAverage, 
+    calculateStandardDeviation, 
+    calculateSupertrend, 
+    calculateVWAP, 
+    calculateWilliamsR, 
+    getSignalsForCategory,
+    generateSignals
 }
