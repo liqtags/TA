@@ -1,5 +1,7 @@
 # TA
 
+[Join the DAO](https://dexlens.io) 
+
 A comprehensive technical analysis library for financial markets that provides a wide range of technical indicators and pattern recognition tools.
 
 ## Installation
