@@ -21,7 +21,6 @@ The `@liquid/ta` module includes implementations of popular technical indicators
 - **Technical Indicators**: Moving averages, oscillators, volatility measures, and more
 - **Candlestick Pattern Recognition**: Identify common candlestick patterns
 - **Signal Generation**: Create and filter trading signals based on indicator conditions
-- **TypeScript Support**: Fully typed for better development experience
 
 ## Usage
 
