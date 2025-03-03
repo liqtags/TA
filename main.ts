@@ -1,8 +1,8 @@
 /**
  * This is the entry point of the module
  */
+import { calculateRSI } from './ta/calculateRSI.ts';
 
-// log with return type
-export function log(message: string): void {
-    console.log(message);
+export {
+    calculateRSI
 }
